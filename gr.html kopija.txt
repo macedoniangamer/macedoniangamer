@@ -1,0 +1,154 @@
+<html>
+<head>
+    <title>Професионална Веб-страница</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1C1C1C;
+            color: #E61716;
+            font-weight: bold;
+            font-size: 20px; /* Adjust font size here */
+            text-align: center; /* Center align all text */
+        }
+
+        header {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #E61716;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #1C1C1C;
+            border-radius: 5px;
+            color: #E61716;
+        }
+
+        h2 {
+            color: #E61716;
+            font-size: 24px; /* Adjust font size here */
+        }
+
+        p {
+            color: #E61716;
+            font-size: 19px; /* Adjust font size here */
+        }
+
+        footer {
+            background-color: #000;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            color: #E61716;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .contact-info a {
+            color: #E61716;
+            text-decoration: none;
+            margin: 0 9px;
+            font-size: 30px;
+        }
+
+        .contact-info a:hover {
+            color: #666;
+        }
+
+        /* Bold headings */
+        header h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\gore centar.png" alt="Placeholder Image 1" height="157.875px" width="480px">
+        <nav>
+            <ul>
+                <li><a href="#почетна">Почетна</a></li>
+                <li><a href="#за-нас">За нас</a></li>
+                <li><a href="#контакт">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="почетна">
+        <h2>Почетно мени:</h2>
+        <p>Добредојдовте на мојата веб-страница. Ако досега не сте знаеле јас сум Gamer Robert и снимам на платформата YouTube веќе 2години.</p>
+        <p>Мојот канал е направен на 9ти Декември 2020год, има 166претплатници и 10,963прегледи од сите видеа заедно! </p>
+        <div class="image">
+            <img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\origina;.png" alt="Placeholder Image 1" height="200px" width="200px">
+			<img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\gr logo 2.png" alt="Placeholder Image 1" height="200px" width="200px">
+			<img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\gr logo white.jpg" alt="Placeholder Image 1" height="200px" width="200px">
+			<img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\gr logo classic (3).jpg" alt="Placeholder Image 1" height="200px" width="200px">
+        </div>
+    </section>
+
+    <section id="за-нас">
+        <h2>За нас:</h2>
+        <p>Ние сме канал кој што се труди да постигне што повеќе успеси во иднина и еден ден да го донесе сребрениот Play-Button од YouTube дома.</p>
+        <p>Веруваме дека забавата и креативноста што ја креираме ви создава да одвоите повеќе време за да не гледате на сите социјални платформи, ако е така ви благодариме од срце <3.</p>
+        <div class="image">
+            <img src="C:\Users\sneze2020\Desktop\Robert Stuff\Gamer Robert channel\GR logos and banners\bb.jpg" alt="Placeholder Image 1" height="730px" width="730px">
+        </div>
+    </section>
+
+    <section id="контакт">
+        <h2>Контакт:</h2>
+        <p>Ако имате било какви прашања или сугестии, слободно контактирајте не преку е-пошта или преку нашите социјални мрежи!</p>
+        <div class="contact-info">
+            <a href="https://www.tiktok.com/@robertoo_yt"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/robertooo_yt/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@GamerRobert"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/GamerRobertYT"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/gamerrobert_yt"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>GR Website &copy; 2024</p>
+    </footer>
+</body>
+</html>
